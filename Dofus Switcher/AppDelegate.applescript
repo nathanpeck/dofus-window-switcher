@@ -8,14 +8,85 @@
 
 script AppDelegate
 	property parent : class "NSObject"
-	
-	on applicationWillFinishLaunching_(aNotification)
-		-- Insert code here to initialize your application before any files are opened 
-	end applicationWillFinishLaunching_
-	
-	on applicationShouldTerminate_(sender)
-		-- Insert code here to do any housekeeping before your application quits 
-		return current application's NSTerminateNow
-	end applicationShouldTerminate_
+    
+    on artemishButtonClicked_(sender)
+        tell application "System Events"
+            repeat with p in every process
+                if name of p is "Dofus" then
+                    tell p
+                        repeat with theWindow in windows
+                            if title of theWindow is "Artemish" then
+                                perform action "AXRaise" of theWindow
+                            end if
+                        end repeat
+                    end tell
+                end if
+            end repeat
+        end tell
+    end artemishButtonClicked_
+    
+    on mishnaButtonClicked_(sender)
+        tell application "System Events"
+            repeat with p in every process
+                if name of p is "Dofus" then
+                    tell p
+                        repeat with theWindow in windows
+                            if title of theWindow is "Mishna" then
+                                perform action "AXRaise" of theWindow
+                            end if
+                        end repeat
+                    end tell
+                end if
+            end repeat
+        end tell
+    end mishnaButtonClicked_
+    
+    on hemlockButtonClicked_(sender)
+        tell application "System Events"
+            repeat with p in every process
+                if name of p is "Dofus" then
+                    tell p
+                        repeat with theWindow in windows
+                            if title of theWindow is "Hemlock" then
+                                perform action "AXRaise" of theWindow
+                            end if
+                        end repeat
+                    end tell
+                end if
+            end repeat
+        end tell
+    end hemlockButtonClicked_
+    
+    on delphiniumButtonClicked_(sender)
+        tell application "System Events"
+            repeat with p in every process
+                if name of p is "Dofus" then
+                    tell p
+                        repeat with theWindow in windows
+                            if title of theWindow is "Delphinium" then
+                                perform action "AXRaise" of theWindow
+                            end if
+                        end repeat
+                    end tell
+                end if
+            end repeat
+        end tell
+    end delphiniumButtonClicked_
+    
+    on moonseedButtonClicked_(sender)
+        tell application "System Events"
+            repeat with p in every process
+                if name of p is "Dofus" then
+                    tell p
+                        repeat with theWindow in windows
+                            if title of theWindow is "Moonseed" then
+                                perform action "AXRaise" of theWindow
+                            end if
+                        end repeat
+                    end tell
+                end if
+            end repeat
+        end tell
+    end moonseedButtonClicked_
 	
 end script

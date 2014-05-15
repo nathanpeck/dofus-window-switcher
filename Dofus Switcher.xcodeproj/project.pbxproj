@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78CADBD0186E04FC0049516D /* Ochre_Dofus.png in Resources */ = {isa = PBXBuildFile; fileRef = 78CADBCF186E04FC0049516D /* Ochre_Dofus.png */; };
 		78F06F95186DFCD30075F0AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F06F94186DFCD30075F0AF /* Cocoa.framework */; };
 		78F06F97186DFCD30075F0AF /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F06F96186DFCD30075F0AF /* AppleScriptObjC.framework */; };
 		78F06FA1186DFCD30075F0AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78F06F9F186DFCD30075F0AF /* InfoPlist.strings */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78CADBCF186E04FC0049516D /* Ochre_Dofus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ochre_Dofus.png; sourceTree = "<group>"; };
 		78F06F91186DFCD30075F0AF /* Dofus Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dofus Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F06F94186DFCD30075F0AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		78F06F96186DFCD30075F0AF /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 				78F06FA8186DFCD30075F0AF /* AppDelegate.applescript */,
 				78F06FAA186DFCD30075F0AF /* MainMenu.xib */,
 				78F06FAD186DFCD30075F0AF /* Images.xcassets */,
+				78CADBCF186E04FC0049516D /* Ochre_Dofus.png */,
 				78F06F9D186DFCD30075F0AF /* Supporting Files */,
 			);
 			path = "Dofus Switcher";
@@ -163,6 +166,7 @@
 				78F06FAE186DFCD30075F0AF /* Images.xcassets in Resources */,
 				78F06FA7186DFCD30075F0AF /* Credits.rtf in Resources */,
 				78F06FAC186DFCD30075F0AF /* MainMenu.xib in Resources */,
+				78CADBD0186E04FC0049516D /* Ochre_Dofus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +325,7 @@
 				78F06FB3186DFCD30075F0AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
